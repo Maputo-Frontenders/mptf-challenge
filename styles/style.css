@@ -85,7 +85,7 @@ main #spotlight h2 {
 
 main #spotlight p {
     font-family: Montserrat-medium;
-    margin-bottom: 60px; 
+    margin-bottom: 60px;
 }
 
 main .shoes {
@@ -118,7 +118,7 @@ footer {
     main #home h2 {
         font-size: 32px;
     }
-    
+
     main #spotlight p,
     main #home p {
         font-size: 18px;
