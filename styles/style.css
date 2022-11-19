@@ -19,7 +19,7 @@
     box-sizing: border-box;
 }
 
-header p {
+.header p {
     background-color: var(--title);
     color: white;
     padding: 15px;
@@ -27,21 +27,21 @@ header p {
     font-family: Montserrat-medium;
 }
 
-header h3 {
+.header h3 {
     font-family: Montserrat-SemiBold;
     font-size: 24px;
     text-align: center;
     padding: 8px;
 }
 
-main #home {
+.main #home {
     position: relative;
     background-size: cover;
     color: white;
     margin-bottom: 50px;
 }
 
-main #home .image {
+.main #home .image {
     background-image: url("../img/wallpaper.jpeg");
     background-position: center left;
     background-attachment: fixed;
@@ -50,58 +50,58 @@ main #home .image {
     height: 300px;
 }
 
-main #home .text {
+.main #home .text {
     max-width: 460px;
     position: absolute;
     top: 30%;
     padding: 20px;
 }
 
-main #home h2 {
+.main #home h2 {
     font-family: Montserrat-Bold;
     font-size: 28px;
     margin-bottom: 12px;
 }
 
-main #home p {
+.main #home p {
     font-family: Montserrat-SemiBold;
     line-height: 28px;
 }
 
-main #home .typed-cursor {
+.main #home .typed-cursor {
     opacity: 0;
 }
 
-main #spotlight {
+.main #spotlight {
     text-align: center;
     padding: 20px;
 }
 
-main #spotlight h2 {
+.main #spotlight h2 {
     font-family: Montserrat-SemiBold;
     font-size: 28px;
     margin-bottom: 10px;
 }
 
-main #spotlight p {
+.main #spotlight p {
     font-family: Montserrat-medium;
     margin-bottom: 60px;
 }
 
-main .shoes {
+.main .shoes {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-main .shoe {
+.main .shoe {
     background-color: var(--bgCard);
     padding: 76px 62px;
     margin-bottom: 30px;
 }
 
 
-footer {
+.footer {
     background-color: var(--title);
     font-family: Montserrat-medium;
     text-align: center;
@@ -110,21 +110,21 @@ footer {
 }
 
 @media (min-width: 580px) {
-    main #home .text {
+    .main #home .text {
         margin-left: 40px;
     }
 
-    main #spotlight h2,
-    main #home h2 {
+    .main #spotlight h2,
+    .main #home h2 {
         font-size: 32px;
     }
 
-    main #spotlight p,
-    main #home p {
+    .main #spotlight p,
+    .main #home p {
         font-size: 18px;
     }
 
-    main .shoe {
+    .main .shoe {
         max-width: 300px;
         margin: 30px 10px;
     }
