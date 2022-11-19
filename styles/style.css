@@ -124,7 +124,8 @@
 }
 
 .hidden {
-    display: none;
+    visibility: hidden;
+    position: absolute;
 }
 
 @media (min-width: 580px) {
