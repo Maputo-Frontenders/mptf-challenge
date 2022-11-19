@@ -100,13 +100,16 @@
     margin-bottom: 30px;
 }
 
-
 .footer {
     background-color: var(--title);
     font-family: Montserrat-medium;
     text-align: center;
     padding: 12px;
     color: white;
+}
+
+.hidden {
+    display: none;
 }
 
 @media (min-width: 580px) {
